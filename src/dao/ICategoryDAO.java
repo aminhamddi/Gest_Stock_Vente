@@ -5,5 +5,5 @@ import java.sql.SQLException;
 import model.Category;
 
 public interface ICategoryDAO {
-	Category getCategoryByID(int id) throws SQLException;
+	Category getCategoryById(int id) throws SQLException;
 }
